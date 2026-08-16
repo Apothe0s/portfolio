@@ -1,19 +1,18 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
-        <SectionTitle main center>
-          Hi! <br />
-          I'm Angelito
+        <SectionTitle main center style={{ textShadow: '0 0 10px #00ff66' }}>
+          $ whoami <br />
+          {">"} Angelito
         </SectionTitle>
-        <SectionText>
-          I have a understanding of programming languages, web development frameworks, and design principles.
+        <SectionText style={{ color: '#00ff66', fontFamily: "'Fira Code', monospace" }}>
+          [SYSTEM INITIALIZED]: Full-stack developer proficient in web protocols, modern frameworks, cyber security concepts, and modular software architecture.
         </SectionText>
       </LeftSection>
     </Section>
