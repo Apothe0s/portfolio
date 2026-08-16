@@ -8,6 +8,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  align-items: center;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -17,23 +18,30 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
+
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
@@ -47,13 +55,15 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 2rem;
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
-  transition: 0.4s ease;
+  font-size: 1.8rem;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  color: #00ff66;
+  opacity: 0.8;
+  transition: all 0.3s ease;
   &:hover {
-    color: #fff;
+    color: #00ff00;
     opacity: 1;
+    text-shadow: 0 0 10px #00ff66;
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -68,9 +78,7 @@ export const ContactDropDown = styled.button`
   position: relative;
   background: none;
   font-size: 1.7rem;
-
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: #00ff66;
   cursor: pointer;
   transition: 0.3s ease;
 
@@ -78,7 +86,7 @@ export const ContactDropDown = styled.button`
     outline: none;
   }
   &:hover {
-    color: #fff;
+    color: #00ff00;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -107,18 +115,16 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
 // Social Icons 
-
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
+  transition: 0.3s ease;
+  color: #00ff66;
+  border-radius: 50px;
   padding: 8px;
-&:hover {
-    background-color: #212d45;
+  &:hover {
+    background-color: rgba(0, 255, 102, 0.15);
     transform: scale(1.2);
+    box-shadow: 0 0 10px #00ff66;
     cursor: pointer;
-    
   }
-`
+`;

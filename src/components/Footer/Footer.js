@@ -6,31 +6,33 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper style={{ borderTop: '1px solid #00ff66', background: '#050a0e' }}>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+63-905-638-2320">+63-905-638-2320</LinkItem>
+          <LinkTitle style={{ color: '#00ff66' }}>[TEL_COMM]</LinkTitle>
+          <LinkItem href="tel:+63-905-638-2320" style={{ color: '#a3f7bf' }}>+63-905-638-2320</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:angelitoapantojr@gmail.com">
+          <LinkTitle style={{ color: '#00ff66' }}>[MAIL_NODE]</LinkTitle>
+          <LinkItem href="mailto:angelitoapantojr@gmail.com" style={{ color: '#a3f7bf' }}>
             angelitoapantojr@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>"The best way to predict the future is to invent it." - Alan Kay</Slogan>
+          <Slogan style={{ color: '#00ff66', fontFamily: "'Fira Code', monospace" }}>
+            {">"} "The best way to predict the future is to invent it." - Alan Kay
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Apothe0s">
+          <SocialIcons href="https://github.com/Apothe0s" target="_blank" rel="noopener noreferrer">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/angelitoapantojr/">
+          <SocialIcons href="https://www.linkedin.com/in/angelitoapantojr/" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/apth0s/">
+          <SocialIcons href="https://www.instagram.com/apth0s/" target="_blank" rel="noopener noreferrer">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
