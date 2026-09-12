@@ -52,8 +52,13 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
+              {p.figma && (
+                <ExternalLinks href={p.figma} target="_blank" rel="noopener noreferrer">
+                  $ ./figma
+                </ExternalLinks>
+              )}
               <ExternalLinks href={p.visit} target="_blank" rel="noopener noreferrer">
-                $ ./code
+                $ ./demo
               </ExternalLinks>
               <ExternalLinks href={p.source} target="_blank" rel="noopener noreferrer">
                 $ ./source
