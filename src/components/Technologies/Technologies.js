@@ -1,5 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiTerminal } from 'react-icons/di';
+import { FaFigma } from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,9 +9,21 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>{">"} Tech_Stack.sys</SectionTitle>
     <SectionText style={{ color: '#00ff66' }}>
-      [MODULES LOADED]: Core stack and system tools utilized in software engineering.
+      [MODULES LOADED]: Core design tools, front-end architecture, and engineering system stack.
     </SectionText>
     <List>
+      <ListItem>
+        <picture>
+          <FaFigma size="2.5rem" color="#00ff66" style={{ margin: '0.25rem' }} />
+        </picture>
+        <ListContainer>
+          <ListTitle>UI/UX & Figma Design</ListTitle>
+          <ListParagraph style={{ color: '#a3f7bf' }}>
+            Figma (Auto Layout & Components) <br />
+            Landing Page & Web Design Systems
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" color="#00ff66" />
