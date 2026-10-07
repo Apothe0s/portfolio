@@ -18,12 +18,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. Build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'PairRoom — Build Together',
+    description: 'A two-person collaboration workspace with WebRTC video, screen sharing, persistent chat, and shared notes. Includes invite links, room capacity checks, session controls, and conflict-aware note saving. Direct media connections use STUN; restrictive networks need a TURN relay. The hosted app currently requires owner access.',
+    image: '/images/pairroom.svg',
+    tags: ['React', 'TypeScript', 'WebRTC', 'Cloudflare Workers', 'D1 SQLite'],
+    source: '',
+    visit: 'https://angelito-pairroom.apothe0s.chatgpt.site',
     id: 2,
   },
   {
