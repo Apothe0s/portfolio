@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB - Full Stack MERN Application. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'DevDesk — Developer Workspace',
+    description: 'A full-stack workspace for organizing project folders, Kanban tasks, notes, and searchable code snippets. Includes ChatGPT sign-in, private cloud storage, progress tracking, and workspace export. The hosted app currently requires owner access.',
+    image: '/images/devdesk.svg',
+    tags: ['React', 'TypeScript', 'Cloudflare Workers', 'D1 SQLite'],
+    source: '',
+    visit: 'https://angelito-devdesk.apothe0s.chatgpt.site',
     id: 0,
   },
   {
