@@ -19,7 +19,7 @@ Built with **Next.js 13** and **React 18**.
 | App | What you will find |
 | --- | --- |
 | About me | Introduction and background |
-| Projects | MERN Memories, E-Commerce, WebRTC App, and Unichat |
+| Projects | DevDesk, E-Commerce, WebRTC App, and Unichat |
 | Skills | Front-end, back-end, developer tools, and protocols |
 | Journey | Development milestones |
 | Contact | Email, phone, and social profiles |
@@ -85,6 +85,12 @@ The terminal is a portfolio interface and does not execute system commands.
 | `src/pages/_document.js` | Document markup |
 
 Some project URLs are inherited Google placeholders. These are hidden in the interface and labeled **“Project links coming soon.”** Replace the `source` and `visit` values in `src/constants/constants.js` with the actual repository and demo URLs to enable them.
+
+## Featured project: DevDesk
+
+[Open DevDesk](https://angelito-devdesk.apothe0s.chatgpt.site) — a developer workspace with project folders, a Kanban board, notes, searchable code snippets, and JSON export. Built with React, TypeScript, Vinext, Cloudflare Workers, and D1 SQLite.
+
+The current hosted deployment is owner-private. Public portfolio visitors cannot access it until its sharing settings are changed. Signed-in workspace records are isolated by user and saved in D1; an anonymous sample-data mode is implemented for future public demos.
 
 ## Contact
 
