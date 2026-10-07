@@ -19,7 +19,7 @@ Built with **Next.js 13** and **React 18**.
 | App | What you will find |
 | --- | --- |
 | About me | Introduction and background |
-| Projects | DevDesk, HeaderWatch, WebRTC App, and Unichat |
+| Projects | DevDesk, HeaderWatch, PairRoom, and Unichat |
 | Skills | Front-end, back-end, developer tools, and protocols |
 | Journey | Development milestones |
 | Contact | Email, phone, and social profiles |
@@ -97,6 +97,12 @@ The current hosted deployment is owner-private. Public portfolio visitors cannot
 [Open HeaderWatch](https://angelito-headerwatch.apothe0s.chatgpt.site) — a security-header inspector covering CSP, HSTS, MIME sniffing protection, framing, referrer policy, and permissions policy. Includes explanations, filtered response headers, private report history, and JSON export. Built with React, TypeScript, Vinext, Cloudflare Workers, and D1 SQLite.
 
 The current hosted deployment is owner-private. Report coverage reflects six configuration checks and does not certify a site's security.
+
+## Featured project: PairRoom
+
+[Open PairRoom](https://angelito-pairroom.apothe0s.chatgpt.site) — a two-person workspace with WebRTC calls, screen sharing, persisted chat, and shared notes. Includes authenticated invite-link entry, explicit media permissions, room capacity enforcement, and optimistic note conflict checks. Built with React, TypeScript, Vinext, Cloudflare Workers, and D1 SQLite.
+
+The current deployment is owner-private; both participants need Site access. Direct connections use STUN. Restrictive networks may need a configured TURN relay. Browser media was not verified during the build; type checks, production build, and server validation/storage checks passed.
 
 ## Contact
 
