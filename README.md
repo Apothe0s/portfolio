@@ -19,7 +19,7 @@ Built with **Next.js 13** and **React 18**.
 | App | What you will find |
 | --- | --- |
 | About me | Introduction and background |
-| Projects | DevDesk, E-Commerce, WebRTC App, and Unichat |
+| Projects | DevDesk, HeaderWatch, WebRTC App, and Unichat |
 | Skills | Front-end, back-end, developer tools, and protocols |
 | Journey | Development milestones |
 | Contact | Email, phone, and social profiles |
@@ -79,7 +79,7 @@ The terminal is a portfolio interface and does not execute system commands.
 | `src/constants/constants.js` | Project descriptions, tags, URLs, and timeline entries |
 | `src/styles/desktop.css` | Desktop, taskbar, Start menu, window styles, and responsive layouts |
 | `public/images/` | Project preview images |
-| `public/desktop/wallpaper.webp` | Desktop wallpaper |
+| `public/desktop/dog.jpg` | Desktop wallpaper |
 | `public/desktop/icons/` | App icons |
 | `src/pages/_app.js` | Global stylesheet import |
 | `src/pages/_document.js` | Document markup |
@@ -91,6 +91,12 @@ Some project URLs are inherited Google placeholders. These are hidden in the int
 [Open DevDesk](https://angelito-devdesk.apothe0s.chatgpt.site) — a developer workspace with project folders, a Kanban board, notes, searchable code snippets, and JSON export. Built with React, TypeScript, Vinext, Cloudflare Workers, and D1 SQLite.
 
 The current hosted deployment is owner-private. Public portfolio visitors cannot access it until its sharing settings are changed. Signed-in workspace records are isolated by user and saved in D1; an anonymous sample-data mode is implemented for future public demos.
+
+## Featured project: HeaderWatch
+
+[Open HeaderWatch](https://angelito-headerwatch.apothe0s.chatgpt.site) — a security-header inspector covering CSP, HSTS, MIME sniffing protection, framing, referrer policy, and permissions policy. Includes explanations, filtered response headers, private report history, and JSON export. Built with React, TypeScript, Vinext, Cloudflare Workers, and D1 SQLite.
+
+The current hosted deployment is owner-private. Report coverage reflects six configuration checks and does not certify a site's security.
 
 ## Contact
 
