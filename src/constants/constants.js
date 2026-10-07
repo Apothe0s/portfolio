@@ -9,12 +9,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"This type of commerce has grown rapidly in recent years, allowing individuals and businesses to conduct transactions online through websites or mobile apps. E-commerce provides a convenient, fast, and accessible way for customers to purchase products and for merchants to sell their wares to a global market.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'HeaderWatch — Security Header Inspector',
+    description: 'Inspect six HTTP security-header configurations with observed values, clear explanations, and policy examples. Includes authenticated report history, JSON export, destination validation, and rate limits. Coverage is a configuration snapshot, not a security certification. The hosted app currently requires owner access.',
+    image: '/images/headerwatch.svg',
+    tags: ['TypeScript', 'React', 'Cloudflare Workers', 'D1 SQLite'],
+    source: '',
+    visit: 'https://angelito-headerwatch.apothe0s.chatgpt.site',
     id: 1,
   },
   {
